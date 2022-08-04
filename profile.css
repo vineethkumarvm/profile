@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+#spotlight div{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+#spotlight div img{
+    width:100%;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    margin: 10px 0;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+
+}
+.card{
+    background-color: aliceblue;
+    display: flex;
+    max-width: 500px;
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 20px;
+    font-family:'Roboto Mono', monospace; 
+}
+.iconing{
+    width: 10%;
+}
+.cardcontent{
+    width: 90%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logolast{
+    background-color: wheat;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    display: flex;
+    height: 40px;
+
+}
+
+.logolast img {
+    margin: 0 auto;
+}
